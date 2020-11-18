@@ -11,7 +11,7 @@ body {
 #centerColumn_contact {
 margin:0 auto;
 padding:1em;
-width:968px;
+width:130vh;
 text-align:left;
 vertical-align: middle;
 background-color:hsla(0,0%,44%,0.80);
@@ -20,7 +20,7 @@ background-color:hsla(0,0%,44%,0.80);
 #centerColumn {
 margin:0 auto;
 padding:1em;
-width:950px;
+width:130vh;
 text-align:left;
 vertical-align: middle;
 background-color:hsla(0, 0%, 44%, 0.8);
@@ -30,18 +30,19 @@ background-color:hsla(0, 0%, 44%, 0.8);
 margin:0 0 -.5em 0;
 padding:.75em 0 0 0;
 font-family:Georgia, "Times New Roman", Times, serif;
-font-size:1.1em;
+font-size:3vmin;
 }
 
 #centerColumn h3 {
 margin:0 0 -.5em 0;
 padding:.75em 0 0 0;
-font-size:.8em;
+font-size:2vmin;
 font-weight:lighter;
 letter-spacing:.1em;
 }
 
 #navbar {
+width: 134.7vh;
 margin:-1em -1em 0 -1em;
 padding:1em 0 1em 0 !important;
 padding:1em 0 0 0;
@@ -49,6 +50,7 @@ background-color: hsla(270,10%,92%,1.00);
 }
 
 #navbar ul {
+width: 134.7vh;
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -87,7 +89,7 @@ text-decoration:none;
 }
 
 #home_choice {
-padding-left: 140px;
+padding-left: 20vmin;
 display: inline-block;
 text-align: center;
 margin-top: 2em;
@@ -152,7 +154,10 @@ margin-top: 2em;
   background-image: url("imgs/MCOffice365.png");
 	background-repeat: no-repeat;
 	float: right;
-	padding-right: 70px;
+	position: relative;
+	padding-top: 20px;
+	margin-top: 80px;
+	margin-bottom: 10px;
 	animation-name: pic;
   animation-duration: 8s;
 	animation-iteration-count: infinite;
@@ -172,11 +177,13 @@ margin-top: 2em;
 
 #contact {
   text-align: center;
+	font-size: 3vmin;
 	color: #1e3043e6;
 }
 
 #contact2 {
 	text-align: center;
+	font-size: 4.5vmax;
 	color: #FCC201;
 }
 
@@ -187,14 +194,14 @@ div.border {
 
 div.column {
 	float: left;
-	width: 30%;
-	padding-right: 30px;
+	width: 30vh;
+	padding-right: 70px;
 }
 
 .row:after {
 	content: "";
-	display: table;
-	clear: both;
+	display: inline-block;
+	overflow: hidden;
 }
 
 h1.contact {
