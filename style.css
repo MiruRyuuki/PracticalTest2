@@ -14,7 +14,7 @@ padding:1em;
 width:968px;
 text-align:left;
 vertical-align: middle;
-background-color:hsla(0,0%,79%,0.80);
+background-color:hsla(0,0%,44%,0.80);
 }
 
 #centerColumn {
@@ -172,6 +172,12 @@ margin-top: 2em;
 
 #contact {
   text-align: center;
+	color: #1e3043e6;
+}
+
+#contact2 {
+	text-align: center;
+	color: #FCC201;
 }
 
 div.border {
@@ -202,7 +208,7 @@ h1.contact {
 h3.contact {
   text-align: center;
   font-size: 1.25em;
-	color: #CBA135;
+	color: #FCC201;
 }
 
 .right {
